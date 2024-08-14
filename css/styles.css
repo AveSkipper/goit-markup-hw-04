@@ -345,18 +345,23 @@ button {
     gap: 24px;
 }
 
-.our-team-list-contacts-item:hover,
-.our-team-list-contacts-item:focus {
-    background-color: #404bbf;
-  }
-
 .our-team-list-contacts-link {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
+}
+
+.our-team-list-contacts-link:hover,
+.our-team-list-contacts-link:focus {
+    background-color: #404bbf;
 }
 
 .our-team-icon {
